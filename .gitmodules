@@ -1,16 +1,25 @@
 [submodule "dotbot"]
-	path = dotbot
-	url = https://github.com/anishathalye/dotbot
-	ignore = dirty
+		path = dotbot
+		url = https://github.com/anishathalye/dotbot
+		ignore = dirty
 [submodule "zsh/plugins/dircolors-solarized"]
-	path = shell/plugins/dircolors-solarized
-	url = https://github.com/seebi/dircolors-solarized.git
+		path = shell/plugins/dircolors-solarized
+		url = https://github.com/seebi/dircolors-solarized.git
 [submodule "zsh/plugins/zsh-syntax-highlighting"]
-	path = zsh/plugins/zsh-syntax-highlighting
-	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+		path = zsh/plugins/zsh-syntax-highlighting
+		url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 [submodule "zsh/plugins/zsh-completions"]
-	path = zsh/plugins/zsh-completions
-	url = https://github.com/zsh-users/zsh-completions
+		path = zsh/plugins/zsh-completions
+		url = https://github.com/zsh-users/zsh-completions
 [submodule "fonts"]
-	path = fonts
-	url = https://github.com/powerline/fonts.git
+		path = fonts
+		url = https://github.com/powerline/fonts.git
+[submodule "dircolors-solarized"]
+	path = dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized.git
+[submodule "zsh-completions"]
+	path = zsh-completions
+	url = https://github.com/zsh-users/zsh-completions
+[submodule "zsh-syntax-highlighting"]
+	path = zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
