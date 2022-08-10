@@ -3,10 +3,15 @@
       create: true
       relink: true
 
-- clean: ['~', '~/.config']
+- clean: ['~', '~/.oh-my-zsh/custom/', '~/.oh-my-zsh/custom/plugins/', '~/.config']
+
+- shell:
+  - [sh pre-install.sh, Running pre installation script]
+  - [mkdir -p ~/.oh-my-zsh/custom/, Creating oh-my-zsh custom forlders]
+  - [mkdir -p ~/.oh-my-zsh/custom/plugins, Creating oh-my-zsh custom plugins forlders]
 
 - link:
-    ~/.bash:
+    # ~/.bash:
     ~/.bash_profile:
     ~/.bashrc:
     ~/.gitconfig:
