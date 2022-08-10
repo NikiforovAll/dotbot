@@ -15,10 +15,12 @@
     ~/.bash:
     ~/.bash_profile:
     ~/.bashrc:
+      force: true
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.zsh:
     ~/.zshrc:
+      force: true
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
