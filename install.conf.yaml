@@ -11,15 +11,14 @@
   - [mkdir -p ~/.oh-my-zsh/custom/plugins, Creating oh-my-zsh custom plugins forlders]
 
 - link:
-    # ~/.bash:
+    ~/.shell:
+    ~/.bash:
     ~/.bash_profile:
     ~/.bashrc:
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.zsh:
     ~/.zshrc:
-
-- create:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

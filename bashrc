@@ -12,7 +12,7 @@ if [ -f ~/.bashrc_local_before ]; then
 fi
 
 # Settings
-source ~/.bash/settings.bash
+# source ~/.bash/settings.bash
 
 # Bootstrap
 source ~/.shell/bootstrap.sh

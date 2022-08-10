@@ -12,8 +12,8 @@ alias grep='grep --color'
 # ls aliases
 alias la='ls -A'
 alias l='ls'
-alias ll="exa -l"
-# alias ll='ls -lah'
+# alias ll="exa -l"
+alias ll='ls -lah'
 
 # Aliases to protect against overwriting
 alias cp='cp -i'
