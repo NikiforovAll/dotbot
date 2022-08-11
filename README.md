@@ -18,6 +18,11 @@ You can make local customizations for some programs by editing these files:
 * `zsh` / `bash` : `~/.shell_local_after` run last
 * `git` : `~/.gitconfig_local`
 
+TODO
+-----
+
+* consider adding ripgrep
+* consider adding fzf (it is not installed)
 
 Credits 
 ---------

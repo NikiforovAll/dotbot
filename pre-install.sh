@@ -17,6 +17,3 @@ if [! $0 = "-zsh"]; then
 else
   echo 'Already using zsh'
 fi
-
-# Install fzf
-./libs/fzf/install --no-bash --no-zsh --no-fish --all
