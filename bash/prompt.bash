@@ -27,3 +27,9 @@ demoprompt() {
     PS1="${COLOR_GRAY}\w ${COLOR_BLUE}\$ "
     trap '[[ -t 1 ]] && tput sgr0' DEBUG
 }
+
+GIT_PROMPT_THEME=Solarized
+if [ -f "$HOME/dotbot/bash-git-prompt/gitprompt.sh" ]; then
+    GIT_PROMPT_ONLY_IN_REPO=1
+    source $HOME/dotbot/bash-git-prompt/gitprompt.sh
+fi

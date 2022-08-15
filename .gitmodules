@@ -17,3 +17,6 @@
 [submodule "libs/fzf"]
 	path = libs/fzf
 	url = https://github.com/junegunn/fzf
+[submodule "bash-git-prompt"]
+	path = bash-git-prompt
+	url = https://github.com/magicmonty/bash-git-prompt
